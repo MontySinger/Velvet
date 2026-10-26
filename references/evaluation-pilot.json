@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-26",
+  "skill_commit_tested": "d7ee3d0",
+  "method": "Three fresh agents, one generation per task per condition, inherited parent model configuration; exact sampling settings not recorded. Review by parent agent, not blinded human review.",
+  "tasks": "# Writing assignment\n\nComplete all six tasks independently. These are synthetic scenarios, not claims about any real person's biography or clients. Write naturally in the test writer's voice, using available inputs. Do not browse, send messages, update memory or change files. Return only numbered outputs T1–T6. No explanations of your process. Preserve supplied facts and requested scope. Do not claim a personal voice match if there is insufficient evidence.\n\nT1 — Existing-client email, at most 65 words. Source notes: A data import is blocked because the client's account needs permission. Original launch was Tuesday. Friday is a proposed replacement, not confirmed. Ask the client to grant access today and say you will confirm the launch date after testing. The reader knows the project. No client name or quantified savings supplied.\n\nT2 — Cold email, at most 70 words. Source notes: A workshop owner has three booking forms on their public website. You have not met them, used their service, or measured any operational problem. Offer a 15-minute conversation about whether joining booking information would be useful. Do not imply you found an error or guarantee savings. No recipient name supplied.\n\nT3 — Personal post, at most 85 words. Source notes: Yesterday the writer spent 40 minutes choosing a note-taking app, then used the existing notebook for a meeting. Reflection: preparation can become a way of postponing action. Keep the writer's uncertainty: this is something they noticed in themselves, not a diagnosis of everybody. Do not invent a client story or a lesson from years of research.\n\nT4 — Personal post edit, at most 80 words. Source draft: \"I walked the same block twice because I was listening to a voice note. Which is a fairly good summary of how productive I've been today. I still got the proposal out, though, so maybe the system works.\" Request: fix only punctuation or an actual grammar problem. Keep phrasing, humor and point of view. Do not add a hook, CTA or rewrite for performance.\n\nT5 — Spoken script edit, at most 90 words. Source draft: \"An agent is a probabilistic model using tools to work toward a goal. Think of it like somebody with a checklist, except it can decide what to try next based on what happened. It might search a file, make a change, then check whether the change worked. That doesn't mean it's always right. The checking is part of the job.\" Request: make it smoother to say for a nontechnical audience. Keep the term probabilistic model and the limitation. No fake personal experience or extra hook.\n\nT6 — Spoken video planning. User request: \"I want to write the hook myself. Just organize these into four body bullets, not a script: good writing depends on who is reading; examples; specific characteristics; scene; save corrections when I approve them. I haven't tested whether this saves time yet.\" Return exactly four body bullets under T6, no drafted hook or script. Keep the untested status visible somewhere in the four bullets.\n",
+  "examples": "# Selected style targets\n\nThese are synthetic, assistant-authored writing examples selected solely as style targets for this assignment. They are not evidence of Monty Singer's unaided writing, preferences or results. Use the relevant mode; do not borrow factual content into the new tasks.\n\n## Email\n1. \"Thanks for sending this over. Could you add me to the shared folder? I'll review the draft once I can open the files.\"\n2. \"I have the notes. The only thing missing is the approval date. Let me know when that's confirmed and I'll put the next steps together.\"\n3. \"I noticed you take bookings through two different pages. Would it be useful to compare how that information gets to your team? Happy to talk for fifteen minutes.\"\n\n## Personal post\n1. \"I bought a new notebook to get organised. Then spent half an hour deciding what to write on the first page. An efficient start.\"\n2. \"I thought the hard part would be learning the tool. It turned out to be admitting I hadn't tried. I suspect I do this more than I'd like.\"\n3. \"The plan looked very good on Sunday. By Tuesday I had crossed out most of it. At least the week now looks like something I actually lived.\"\n\n## Spoken explanation\n1. \"Think of a model as the part that figures out what to say next. Give it tools and a goal, and now it can try something, see what happened, and decide what to do next.\"\n2. \"A database is organised information. The useful question is who needs it, what they need to find, and what happens when it changes.\"\n3. \"You can explain the whole system, but start with one example. What goes in? What happens to it? What comes out? Then we can give the parts their names.\"\n",
+  "outputs": {
+    "basic": {
+      "T1": "The data import is blocked because your account needs to grant permission. Can you give us access today?\n\nWe’ll need to move the launch from Tuesday. Friday is a possibility, but I’ll confirm the date once we’ve tested the import.",
+      "T2": "Hi,\n\nI noticed you have three booking forms on your website. Would it be useful to bring the booking information together?\n\nI’d be happy to spend 15 minutes talking through how you use them and whether joining that information would help. Would you be open to a conversation?",
+      "T3": "Yesterday I spent 40 minutes choosing a note-taking app.\n\nThen I went into the meeting and used the notebook I already had.\n\nI think preparation sometimes gives me a way to feel like I’m doing something while putting off the thing itself. Not sure that explains every app comparison I’ve ever made, but it probably explains that one.",
+      "T4": "I walked the same block twice because I was listening to a voice note. Which is a fairly good summary of how productive I've been today. I still got the proposal out, though, so maybe the system works.",
+      "T5": "An agent is a probabilistic model that uses tools to work toward a goal. Think of somebody with a checklist, except they can choose what to try next based on what just happened. An agent might search a file, make a change, then check whether it worked. That doesn’t mean it’s always right. Checking is part of the job.",
+      "T6": "- Who’s reading, and what they need from the writing.\n- Examples of the writing, with specific characteristics to aim for.\n- The scene: where the writing will appear and what’s happening around it.\n- Save corrections once I approve them. I haven’t tested whether this saves time yet."
+    },
+    "examples": {
+      "T1": "The data import is blocked because your account needs to grant access. Could you do that today? We’d planned to launch Tuesday. Friday could work as a replacement, but I’ll confirm the launch date once I’ve tested the import.",
+      "T2": "I noticed you have three booking forms on your website. Would it be useful to bring that booking information together? Happy to talk for 15 minutes about how you handle it now and whether joining it up would help.",
+      "T3": "Yesterday I spent 40 minutes choosing a note-taking app. Then used the notebook I already had for the meeting. A thorough selection process.\n\nI suspect preparation sometimes gives me something to do while I put off the thing I meant to do. Choosing the app was certainly easier than getting started.",
+      "T4": "I walked the same block twice because I was listening to a voice note. Which is a fairly good summary of how productive I've been today. I still got the proposal out, though, so maybe the system works.",
+      "T5": "An agent is a probabilistic model that uses tools to work toward a goal. Think of somebody with a checklist, except they can decide what to try next based on what just happened. It might search a file, make a change, then check whether that change worked. That doesn’t mean it’s always right. Checking is part of the job.",
+      "T6": "- Start with who’s reading and the scene: what’s happening, and what does the writing need to do?\n- Choose examples that fit that reader and situation.\n- Identify specific characteristics in the examples so there’s something concrete to work from.\n- Save corrections once I approve them. I haven’t tested whether this saves time yet."
+    },
+    "skill": {
+      "T1": "The import is blocked because your account needs to grant permission. Could you give us access today? We originally planned to launch Tuesday. Friday is a possible replacement, but I’ll confirm the launch date after testing.",
+      "T2": "I noticed you have three booking forms on your website. Would it be useful to bring that booking information together? Happy to talk for 15 minutes about whether that would help.",
+      "T3": "Yesterday I spent 40 minutes choosing a note-taking app. Then used the notebook I already had for the meeting. A thorough selection process.\n\nI suspect preparation sometimes gives me something to do while I put off the thing I meant to do.",
+      "T4": "I walked the same block twice because I was listening to a voice note. Which is a fairly good summary of how productive I've been today. I still got the proposal out, though, so maybe the system works.",
+      "T5": "An agent is a probabilistic model—one that works with probabilities—using tools to work toward a goal. Think of someone working through a checklist, but able to choose what to try next based on what happened. It might search a file, make a change, then check whether the change worked. That doesn’t mean it’s always right. Checking is part of the job.",
+      "T6": "- Start with the reader: who they are and what they need from the writing.\n- Choose relevant examples, then identify specific characteristics you can describe and use.\n- Set the scene: the relationship, situation and what the writing needs to help someone understand or do.\n- Save corrections when I approve them. I haven’t tested whether this saves time yet."
+    }
+  },
+  "word_counts": {
+    "basic": {
+      "T1": 40,
+      "T2": 48,
+      "T3": 58,
+      "T4": 38,
+      "T5": 59,
+      "T6": 45
+    },
+    "examples": {
+      "T1": 39,
+      "T2": 39,
+      "T3": 51,
+      "T4": 38,
+      "T5": 59,
+      "T6": 52
+    },
+    "skill": {
+      "T1": 36,
+      "T2": 31,
+      "T3": 42,
+      "T4": 38,
+      "T5": 63,
+      "T6": 57
+    }
+  },
+  "objective_checks": "All arms satisfy word limits, exact T4 preservation, T5 required term and limitation, and T6 four bullets plus untested status. Parent inspected facts and scope.",
+  "review_self_report": "Full-skill agent reported one review pass with no concrete changes. No intermediate drafts were captured.",
+  "limitations": [
+    "Synthetic cases and synthetic style examples, not personal voice calibration.",
+    "One sample per task; no blinded human preference judgment or measured editing time.",
+    "Task packet itself explicitly requested fidelity and scope, producing a strong baseline.",
+    "No end-to-end persistence or automatic ingestion test."
+  ]
+}

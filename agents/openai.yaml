@@ -1,0 +1,4 @@
+interface:
+  display_name: Velvet
+  short_description: Write naturally using your examples and context
+  default_prompt: Use $velvet to revise this text using my examples, audience, and intended effect.

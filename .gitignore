@@ -1,0 +1,7 @@
+# Keep personal calibration outside the public repository.
+private/
+corpus/
+voice-profile.local.md
+.env
+.env.*
+.DS_Store
